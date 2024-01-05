@@ -1,0 +1,76 @@
+# Site
+repository: h-beeen/h-beeen.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: 변해빈
+title: 서버 백엔드 엔지니어
+email: joker7011@naver.com
+# website: https://github.com/h-beeen
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+# twitter_username: facespics
+github_username: h-beeen
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: h.beeen
+# linkedin_username: jameswgrant
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.png
+about_content: | # this will include new lines to allow paragraphs
+  Java & Spring 기반의 새싹 서버 백엔드 개발자 🌱<br/><br/>
+  <mark>테스트 코드</mark> 작성을 가장 중요하게 생각하며, Spring Rest Docs, Swagger, OpenApi Spec 등 신뢰성 있는 명세를 위해 노력합니다.<br/>
+  현재는 <mark>CTO</mark>로 사업과 제품의 방향성을 고려하여 채용, 시스템 설계, 팀 매니징, <mark>팀원과 팀의 성장</mark> 등을 주요 업무로 하고 있습니다.<br/>
+
+content:
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 경기대학교 수원캠퍼스
+        caption: 2018.03 - 2024. 02 (졸업예정자)
+        sub_title: 경제학, 융합데이터공학 전공
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag

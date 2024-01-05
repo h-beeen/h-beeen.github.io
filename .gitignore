@@ -1,0 +1,9 @@
+*.gem
+.bundle
+.sass-cache
+_site
+Gemfile.lock
+*.code-workspace
+.DS_Store
+reference.yml
+ref2.yml
